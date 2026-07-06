@@ -1,12 +1,17 @@
+import "./App.css";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <h1>Emmanuel Kipyegon</h1>
-      <p>Welcome to my portfolio.</p>
-    </div>
+      <Hero />
+      <About />
+      <Skills />
+    </>
   );
 }
 
