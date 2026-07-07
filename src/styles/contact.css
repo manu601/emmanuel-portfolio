@@ -1,0 +1,27 @@
+.contact {
+  text-align: center;
+}
+
+.contact-intro {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.contact-card {
+  padding: 30px;
+}
+
+.contact-card h3 {
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.contact-card a:hover {
+  color: var(--primary);
+}

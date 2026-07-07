@@ -1,3 +1,7 @@
+import portfolioPreview from "../assets/portfolio-preview.svg";
+import trolleyPreview from "../assets/trolley-preview.svg";
+import careerPreview from "../assets/career-preview.svg";
+
 function Projects() {
   return (
     <section className="projects" id="projects">
@@ -11,7 +15,7 @@ function Projects() {
         <div className="project-card">
 
           <div className="project-image">
-            Project Screenshot
+            <img src={trolleyPreview} alt="Smart trolley system preview" />
           </div>
 
           <div className="project-content">
@@ -41,7 +45,7 @@ function Projects() {
         <div className="project-card">
 
           <div className="project-image">
-            Project Screenshot
+            <img src={careerPreview} alt="Student career database preview" />
           </div>
 
           <div className="project-content">
@@ -71,7 +75,7 @@ function Projects() {
         <div className="project-card">
 
           <div className="project-image">
-            Project Screenshot
+            <img src={portfolioPreview} alt="Personal portfolio preview" />
           </div>
 
           <div className="project-content">

@@ -1,0 +1,51 @@
+.experience h2 {
+  margin-bottom: 46px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 40px;
+  border-left: 3px solid rgba(94, 231, 255, 0.3);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -51px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  background: var(--primary);
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(94, 231, 255, 0.12);
+}
+
+.timeline-content {
+  padding: 30px;
+}
+
+.timeline-date {
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.timeline-content h3 {
+  margin: 12px 0 6px;
+  color: var(--text);
+}
+
+.timeline-content h4 {
+  color: var(--muted);
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.timeline-content ul {
+  padding-left: 20px;
+}
