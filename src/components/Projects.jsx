@@ -8,7 +8,7 @@ function Projects() {
 
       <p className="section-tag">PROJECTS</p>
 
-      <h2>Featured Projects</h2>
+      <h2>Featured Projects & Academic Work</h2>
 
       <div className="projects-grid">
 
