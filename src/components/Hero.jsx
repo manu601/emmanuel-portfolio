@@ -27,7 +27,11 @@ function Hero() {
             View My Work
           </a>
 
-          <a href="/Emmanuel_Kipyegon_CV.pdf" className="secondary-btn">
+          <a
+            href="/EMMANUEL.pdf"
+            className="secondary-btn"
+            download="EMMANUEL.pdf"
+          >
             Download CV
           </a>
         </div>
