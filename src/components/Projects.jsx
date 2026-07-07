@@ -1,66 +1,110 @@
 function Projects() {
   return (
     <section className="projects" id="projects">
-      <div className="projects-container">
-        <h2>Projects</h2>
 
-        <p className="projects-intro">
-          A selection of systems and applications I’ve built or worked on.
-        </p>
+      <p className="section-tag">PROJECTS</p>
 
-        <div className="projects-grid">
+      <h2>Featured Projects</h2>
 
-          <div className="project-card">
-            <h3>M-Pesa Bill Manager</h3>
-            <p>
-              A mobile app for tracking and managing M-Pesa transactions and bills.
-              Built using React Native and Expo.
-            </p>
+      <div className="projects-grid">
 
-            <div className="project-links">
-              <a href="#" target="_blank">GitHub</a>
-              <a href="#" target="_blank">Demo</a>
-            </div>
+        <div className="project-card">
+
+          <div className="project-image">
+            Project Screenshot
           </div>
 
-          <div className="project-card">
+          <div className="project-content">
+
             <h3>Smart Trolley System</h3>
+
             <p>
-              IoT-based shopping trolley that scans products using barcode
-              technology and calculates total cost in real time.
+              University team project that developed an automated shopping
+              trolley with a database and user interface to improve the
+              shopping experience.
             </p>
 
-            <div className="project-links">
-              <a href="#" target="_blank">GitHub</a>
+            <div className="tech-stack">
+              <span>MySQL</span>
+              <span>Database Design</span>
+              <span>UI Design</span>
             </div>
-          </div>
-
-          <div className="project-card">
-            <h3>Intruder Detection System</h3>
-            <p>
-              Python-based security system that captures images when unauthorized
-              access is detected.
-            </p>
 
             <div className="project-links">
-              <a href="#" target="_blank">GitHub</a>
+              <a href="#">GitHub</a>
             </div>
-          </div>
 
-          <div className="project-card">
-            <h3>Web Portfolio</h3>
-            <p>
-              Personal portfolio website built with React showcasing my skills,
-              projects, and experience.
-            </p>
-
-            <div className="project-links">
-              <a href="#" target="_blank">GitHub</a>
-            </div>
           </div>
 
         </div>
+
+        <div className="project-card">
+
+          <div className="project-image">
+            Project Screenshot
+          </div>
+
+          <div className="project-content">
+
+            <h3>Student Career Database</h3>
+
+            <p>
+              Designed a relational database that connects university courses,
+              degrees, and career opportunities to help students explore
+              potential career paths.
+            </p>
+
+            <div className="tech-stack">
+              <span>MySQL</span>
+              <span>Database</span>
+              <span>SQL</span>
+            </div>
+
+            <div className="project-links">
+              <a href="#">GitHub</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="project-card">
+
+          <div className="project-image">
+            Project Screenshot
+          </div>
+
+          <div className="project-content">
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+              Responsive portfolio website developed using React and Vite to
+              showcase my education, skills, experience, and projects.
+            </p>
+
+            <div className="tech-stack">
+              <span>React</span>
+              <span>Vite</span>
+              <span>CSS</span>
+            </div>
+
+            <div className="project-links">
+              <a
+                href="https://github.com/manu601/emmanuel-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
+
     </section>
   );
 }

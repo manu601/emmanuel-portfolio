@@ -2,21 +2,36 @@ import profile from "../assets/profile.jpg";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero-text">
-        <h1>Hi, I'm Emmanuel Kipyegon</h1>
 
-<h2>ICT Professional | Software Developer</h2>
+        <p className="hero-greeting">HELLO, I'M</p>
 
-<p>
-  Passionate about building web applications, software solutions,
-  and innovative technology projects that solve real-world problems.
-</p>
-        
+        <h1>Emmanuel Kipyegon</h1>
+
+        <h2>
+          Software Developer
+          <span> | ICT Professional</span>
+        </h2>
+
+        <p className="hero-description">
+          Bachelor of Science graduate in Microprocessor Technology and
+          Instrumentation with experience in software development,
+          database systems, research, and IT support. Passionate about
+          building practical technology solutions that solve real-world
+          problems.
+        </p>
+
         <div className="hero-buttons">
-          <button>Hire Me</button>
-          <button>Download CV</button>
+          <a href="#projects" className="primary-btn">
+            View My Work
+          </a>
+
+          <a href="/Emmanuel_Kipyegon_CV.pdf" className="secondary-btn">
+            Download CV
+          </a>
         </div>
+
       </div>
 
       <div className="hero-image">
